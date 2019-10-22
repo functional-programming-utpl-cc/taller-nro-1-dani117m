@@ -1,0 +1,7 @@
+val countries = List("Ecuador", "Venezuela", "Colombia", "Perú", "Chile", "Argentina", "Uruguay", "Paraguay", "Brasil")
+1. countries.filter( x => x.startsWith("C"))
+2. countries.filter( x => x.startsWith("E"))
+3. countries.filter( x => x.startsWith("E")|| x.startsWith("I"))
+4. countries.filter( x => x.length>5)
+val numbers = List(10, 11, 12, 18, 20, 50, 60, 80, 81, 96)
+1. numbers.filter(x => (1 until x).filter(x%_==0).sum < x )
